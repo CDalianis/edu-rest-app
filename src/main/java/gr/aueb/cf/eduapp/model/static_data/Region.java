@@ -1,4 +1,4 @@
-package gr.aueb.cf.edu_rest_app_pro.model.static_data;
+package gr.aueb.cf.eduapp.model.static_data;
 
 import gr.aueb.cf.eduapp.model.Teacher;
 import jakarta.persistence.*;

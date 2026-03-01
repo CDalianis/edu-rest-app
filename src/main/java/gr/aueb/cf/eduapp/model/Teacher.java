@@ -1,4 +1,4 @@
-package gr.aueb.cf.edu_rest_app_pro.model;
+package gr.aueb.cf.eduapp.model;
 
 import gr.aueb.cf.eduapp.model.static_data.Region;
 import jakarta.persistence.*;
@@ -39,10 +39,20 @@ public class Teacher extends AbstractEntity {
     @JoinColumn(name = "user_id", nullable = false, unique = true)
     private User user;
 
+    @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
+    @JoinColumn(name = "user_id", nullable = false, unique = true)
+    private PersonalInfo personalInfo;
+
     @PrePersist
     public void initializeUUID() {
         this.uuid = UUID.randomUUID();
     }
+
+    public void adduser(User user) {
+        this.user = user;
+        user.setTeacher(this);
+    }
+
 
     @Override
     public boolean equals(Object o) {

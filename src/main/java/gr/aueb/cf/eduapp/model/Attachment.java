@@ -1,4 +1,4 @@
-package gr.aueb.cf.edu_rest_app_pro.model;
+package gr.aueb.cf.eduapp.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
