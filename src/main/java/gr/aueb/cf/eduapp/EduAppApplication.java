@@ -1,13 +1,13 @@
-package gr.aueb.cf.edu_rest_app_pro;
+package gr.aueb.cf.eduapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EduRestAppProApplication {
+public class EduAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EduRestAppProApplication.class, args);
+		SpringApplication.run(EduAppApplication.class, args);
 	}
 
 }
