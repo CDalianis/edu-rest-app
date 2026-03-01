@@ -1,10 +1,10 @@
-package gr.aueb.cf.edu_rest_app_pro;
+package gr.aueb.cf.eduapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EduRestAppProApplicationTests {
+class EduAppApplicationTests {
 
 	@Test
 	void contextLoads() {
