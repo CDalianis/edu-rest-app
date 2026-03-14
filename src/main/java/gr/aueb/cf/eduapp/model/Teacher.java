@@ -40,7 +40,7 @@ public class Teacher extends AbstractEntity {
     private User user;
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name = "user_id", nullable = false, unique = true)
+    @JoinColumn(name = "personal_info_id")
     private PersonalInfo personalInfo;
 
     @PrePersist
@@ -48,11 +48,10 @@ public class Teacher extends AbstractEntity {
         this.uuid = UUID.randomUUID();
     }
 
-    public void adduser(User user) {
+    public void addUser(User user) {
         this.user = user;
         user.setTeacher(this);
     }
-
 
     @Override
     public boolean equals(Object o) {
