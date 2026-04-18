@@ -1,6 +1,6 @@
 # EduApp REST API
 
-A Spring Boot REST API for managing teachers and users in an educational context, featuring JWT-based authentication, role-based access control, soft-delete, file uploads, and async report generation.
+A Duplicate Spring Boot REST API for managing teachers and users in an educational context, featuring JWT-based authentication, role-based access control, soft-delete, file uploads, and async report generation.
 
 ## Tech Stack
 
