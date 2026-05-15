@@ -1,5 +1,6 @@
 package gr.aueb.cf.eduapp.security;
 
+import gr.aueb.cf.eduapp.authentication.AuthenticationService;
 import gr.aueb.cf.eduapp.authentication.JwtService;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtException;

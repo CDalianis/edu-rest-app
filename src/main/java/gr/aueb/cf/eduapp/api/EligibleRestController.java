@@ -3,6 +3,7 @@ package gr.aueb.cf.eduapp.api;
 import gr.aueb.cf.eduapp.core.exceptions.EntityNotFoundException;
 import gr.aueb.cf.eduapp.dto.JobStatusDTO;
 import gr.aueb.cf.eduapp.service.IEligibleService;
+import gr.aueb.cf.eduapp.service.ITeacherService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
