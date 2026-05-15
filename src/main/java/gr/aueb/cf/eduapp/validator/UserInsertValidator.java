@@ -1,7 +1,10 @@
 package gr.aueb.cf.eduapp.validator;
 
 import gr.aueb.cf.eduapp.core.exceptions.EntityAlreadyExistsException;
+import gr.aueb.cf.eduapp.dto.TeacherInsertDTO;
 import gr.aueb.cf.eduapp.dto.UserInsertDTO;
+import gr.aueb.cf.eduapp.repository.UserRepository;
+import gr.aueb.cf.eduapp.service.ITeacherService;
 import gr.aueb.cf.eduapp.service.IUserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
